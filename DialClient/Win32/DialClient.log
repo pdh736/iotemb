@@ -1,0 +1,26 @@
+﻿빌드 시작: 2018-04-18 오후 12:27:02
+     1>2 노드의 "E:\iotemb\DialClient\DialClient.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Win32\DialClient.unsuccessfulbuild"을(를) 만들고 있습니다.
+       CustomBuild:
+         모든 출력이 최신 상태입니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\DialClient.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib /LIBPATH:C:\Qt\4.8.0\lib C:\Qt\4.8.0\lib\qtmaind.lib C:\Qt\4.8.0\lib\QtGuid4.lib C:\Qt\4.8.0\lib\QtNetworkd4.lib C:\Qt\4.8.0\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\DialClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\iotemb\DialClient\debug\DialClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\moc_dialcient.obj
+         Win32\moc_socketclient.obj
+         Win32\dialcient.obj
+         Win32\main.obj
+         Win32\socketclient.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : debug\\DialClient.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         DialClient.vcxproj -> E:\iotemb\DialClient\debug\DialClient.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\DialClient.exe;#1" /manifest Win32\DialClient.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Win32\DialClient.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Win32\DialClient.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\iotemb\DialClient\DialClient.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.29
