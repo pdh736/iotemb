@@ -1,3 +1,12 @@
 10:47:10 [WINQT] New connected! (ip:192.168.1.64,fd:4,sockcnt:1)
 10:55:19 [WINQT] New connected! (ip:192.168.1.64,fd:4,sockcnt:1)
 10:58:53 [WINQT] New connected! (ip:192.168.1.64,fd:4,sockcnt:1)
+11:34:00 [WINQT] New connected! (ip:192.168.1.64,fd:4,sockcnt:1)
+11:34:05 msg : [WINQT->pdh] LEDON
+11:34:10 msg : [WINQT->pdh] LEDOFF
+11:34:14 msg : [WINQT->pdh] LEDON
+11:34:16 msg : [WINQT->pdh] LEDOFF
+11:36:00 Disconnect ID:WINQT (ip:192.168.1.64,fd:4,sockcnt:0)
+11:36:11 [WINQT] New connected! (ip:192.168.1.64,fd:6,sockcnt:1)
+11:36:15 msg : [WINQT->pdh] LEDON
+11:36:18 msg : [WINQT->pdh] LEDOFF
