@@ -15,6 +15,8 @@ DialCient::DialCient(QWidget *parent) :
     connect(ui->pTimerButton,SIGNAL(clicked(bool)),this,SLOT(myTimerBtnSlot(bool)));
     connect(ui->pComboBox,SIGNAL(currentIndexChanged(int)),this,SLOT(myComboSlot(int)));
     connect(pTimer,SIGNAL(timeout()),this,SLOT(myTimeOutSlot()));
+    connect(ui->pArdLedBtn,SIGNAL(clicked(bool)),this,SLOT(myArdLedSlot(bool)));
+    connect(this,SIGNAL(ArdLedSig(QString)),pSocketClient,SLOT(slotSocketWriteData(QString)));
 }
 
 DialCient::~DialCient()
@@ -55,3 +57,14 @@ void DialCient::myComboSlot(int comboval){
         pTimer->start(timeVal);
     }
 }
+
+
+void DialCient::myArdLedSlot(bool btn){
+    if(btn){
+       emit ArdLedSig("[pdh]LEDON\n");
+    }
+    else {
+       emit ArdLedSig("[pdh]LEDOFF\n");
+    }
+}
+

@@ -30,6 +30,9 @@ public slots:
     void myTimerBtnSlot(bool);
     void myTimeOutSlot(void);
     void myComboSlot(int);
+    void myArdLedSlot(bool);
+signals:
+    void ArdLedSig(QString);
 };
 
 #endif // DIALCIENT_H

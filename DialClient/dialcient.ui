@@ -161,9 +161,12 @@
          <number>35</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="pArdLedBtn">
           <property name="text">
-           <string>PushButton</string>
+           <string>ARD_LEDON</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
