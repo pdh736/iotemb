@@ -1,11 +1,12 @@
-﻿빌드 시작: 2018-04-18 오후 12:27:02
+﻿빌드 시작: 2018-04-18 오후 12:58:58
      1>2 노드의 "E:\iotemb\DialClient\DialClient.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Win32\DialClient.unsuccessfulbuild"을(를) 만들고 있습니다.
        CustomBuild:
-         모든 출력이 최신 상태입니다.
+         Uic'ing dialcient.ui...
        ClCompile:
-         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Qt\4.8.0\include\QtCore /IC:\Qt\4.8.0\include\QtNetwork /IC:\Qt\4.8.0\include\QtGui /IC:\Qt\4.8.0\include /IC:\Qt\4.8.0\include\ActiveQt /I.\debug /IC:\Qt\4.8.0\mkspecs\default /I.\GeneratedFiles /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DEPRECATED_WARNINGS /D QT_DLL /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\\" /Fd"Win32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dialcient.cpp -Zm200 -w34100 -w34189 
+         dialcient.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\DialClient.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib /LIBPATH:C:\Qt\4.8.0\lib C:\Qt\4.8.0\lib\qtmaind.lib C:\Qt\4.8.0\lib\QtGuid4.lib C:\Qt\4.8.0\lib\QtNetworkd4.lib C:\Qt\4.8.0\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\DialClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\iotemb\DialClient\debug\DialClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\moc_dialcient.obj
          Win32\moc_socketclient.obj
@@ -23,4 +24,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:00.29
+경과 시간: 00:00:01.52

@@ -6,204 +6,202 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>479</width>
-    <height>387</height>
+    <width>490</width>
+    <height>641</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>DialCient</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>19</x>
-     <y>19</y>
-     <width>441</width>
-     <height>351</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,5,1">
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout" stretch="4,1">
-      <item>
-       <widget class="QPushButton" name="pTimerButton">
-        <property name="text">
-         <string>Timer Start</string>
-        </property>
-        <property name="checkable">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pQuitButton">
-        <property name="text">
-         <string>Quit</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <property name="spacing">
-       <number>0</number>
-      </property>
-      <property name="leftMargin">
-       <number>10</number>
-      </property>
-      <property name="topMargin">
-       <number>10</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="pLabel">
-        <property name="text">
-         <string>TextLabel</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <widget class="QComboBox" name="pComboBox">
-        <property name="maxCount">
-         <number>2147483644</number>
-        </property>
-        <item>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,5,1">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="7,3">
+       <item>
+        <widget class="QPushButton" name="pTimerButton">
          <property name="text">
-          <string>100ms</string>
+          <string>Timer Start</string>
          </property>
-        </item>
-        <item>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pQuitButton">
          <property name="text">
-          <string>200ms</string>
+          <string>Quit</string>
          </property>
-        </item>
-        <item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="7,3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="pLabel">
          <property name="text">
-          <string>300ms</string>
+          <string>TextLabel</string>
          </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>400ms</string>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="pComboBox">
+         <property name="maxCount">
+          <number>2147483644</number>
          </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>500ms</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>600ms</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>700ms</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>800ms</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>900ms</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>1000ms</string>
-         </property>
-        </item>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="7,3">
-      <item>
-       <widget class="QDial" name="pDial">
-        <property name="maximum">
-         <number>10</number>
-        </property>
-        <property name="singleStep">
-         <number>1</number>
-        </property>
-        <property name="notchesVisible">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <layout class="QVBoxLayout" name="verticalLayout_2">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <property name="topMargin">
-         <number>35</number>
-        </property>
-        <property name="bottomMargin">
-         <number>35</number>
-        </property>
-        <item>
-         <widget class="QPushButton" name="pArdLedBtn">
+         <item>
           <property name="text">
-           <string>ARD_LEDON</string>
+           <string>100ms</string>
           </property>
-          <property name="checkable">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton_2">
+         </item>
+         <item>
           <property name="text">
-           <string>PushButton</string>
+           <string>200ms</string>
           </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_4">
-      <item>
-       <widget class="QProgressBar" name="pProgressBar">
-        <property name="value">
-         <number>0</number>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLCDNumber" name="pLcdNumber">
-        <property name="digitCount">
-         <number>2</number>
-        </property>
-        <property name="segmentStyle">
-         <enum>QLCDNumber::Flat</enum>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
-  </widget>
+         </item>
+         <item>
+          <property name="text">
+           <string>300ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>400ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>500ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>600ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>700ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>800ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>900ms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1000ms</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="7,3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QDial" name="pDial">
+           <property name="maximum">
+            <number>10</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="notchesVisible">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>35</number>
+         </property>
+         <property name="bottomMargin">
+          <number>35</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pArdLedBtn">
+           <property name="text">
+            <string>ARD_LEDON</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="7,3">
+       <item>
+        <widget class="QProgressBar" name="pProgressBar">
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="pLcdNumber">
+         <property name="digitCount">
+          <number>2</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
