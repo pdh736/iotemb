@@ -62,9 +62,11 @@ void DialCient::myComboSlot(int comboval){
 void DialCient::myArdLedSlot(bool btn){
     if(btn){
        emit ArdLedSig("[pdh]LEDON\n");
+        ui->pArdLedBtn->setText("ARD LED OFF");
     }
     else {
        emit ArdLedSig("[pdh]LEDOFF\n");
+        ui->pArdLedBtn->setText("ARD LED ON");
     }
 }
 

@@ -70,11 +70,11 @@ void SocketClient::slotSocketReadData(){
             break;
         pToken = strtok(NULL,"[#]");
     }
-    if(!strncmp(pArray[1],"TIMERSTART",10))
+    if(!strncmp(pArray[1],"LEDON",5))
     {
 
     }
-    else if(!strncmp(pArray[1],"TIMERSTOP",9))
+    else if(!strncmp(pArray[1],"LEDOFF",6))
     {
 
     }
