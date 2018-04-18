@@ -27,7 +27,6 @@ DialCient::~DialCient()
 void DialCient::mySlot(int val){
     QString str;
     str.sprintf("value : %d",val);
-    val *=10;
     ui->pProgressBar->setValue(val);
     ui->pLabel->setText(str);
 }
@@ -45,7 +44,7 @@ void DialCient::myTimerBtnSlot(bool btn){
 
 void DialCient::myTimeOutSlot(){
    dialVal++;
-   if(dialVal>10) dialVal=0;
+   if(dialVal>127) dialVal=0;
    ui->pDial->setValue(dialVal);
 
 }
